@@ -2,14 +2,8 @@
 <p>Initiates Protobuf specification for the Repo service<p>
 <p>Compiled by @avoceous<p> 
 
-<center>
-      ##                             
-     #  #     #        #    ####      ########   ##########    ####     #     #    ######## 
-    ######     #      #   ##    ##   ##          ##          ##    ##   #     #   ## 
-   #      #     #    #    ##    ##   ##          #######     ##    ##   ##   ##    ########    
-  #        #     #  #     ##    ##    ##         ##          ##    ##   ##   ##          ##
- ##        ##     ##        ####       #######   ##########    ####      #####    #########
-</center>
+<img src="./resources/source/images/avoceous.png" width="500">
+
 
 <o1>
 // server-streaming/service/repositories.proto
