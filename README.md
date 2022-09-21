@@ -1,23 +1,17 @@
-# gRPC-server-side-streaming
-# Initiates Protobuf specification for the Repo service
-# Compiled by @avoceous 
+<h1>gRPC-server-side-streaming</h1>
+<p>Initiates Protobuf specification for the Repo service<p>
+<p>Compiled by @avoceous<p> 
 
-
-#############################################################################################
-
-
+<center>
       ##                             
      #  #     #        #    ####      ########   ##########    ####     #     #    ######## 
     ######     #      #   ##    ##   ##          ##          ##    ##   #     #   ## 
    #      #     #    #    ##    ##   ##          #######     ##    ##   ##   ##    ########    
   #        #     #  #     ##    ##    ##         ##          ##    ##   ##   ##          ##
  ##        ##     ##        ####       #######   ##########    ####      #####    #########
- 
- 
-      
-#############################################################################################
+</center>
 
-
+<o1>
 // server-streaming/service/repositories.proto
 
 import "users.proto";
@@ -44,3 +38,4 @@ message Repository {
 message RepoGetReply {
   Repository repo = 1;
 }
+</o1>
