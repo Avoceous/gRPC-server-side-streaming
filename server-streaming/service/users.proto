@@ -1,7 +1,7 @@
-// user-service/service/users.proto
+// server-streaming/service/users.proto
 
 syntax = "proto3";
-option go_package = "github.com/Avoceous/user-service/service";
+option go_package = "github.com/Avoceous/server-streaming/service";
 
 service Users {
  rpc Getuser (UserGetRequest) returns (UserGetReply) {}
