@@ -1,0 +1,24 @@
+// user-service/service/users.proto
+
+syntax = "proto3";
+option go_package = "github.com/Avoceous/user-service/service";
+
+service Users {
+ rpc Getuser (UserGetRequest) returns (UserGetReply) {}
+}
+
+messgae UserGerRequest {
+ string email = 1;
+  string id = 2;
+}
+
+message User {
+ string id = 1;
+ string first_name = 2;
+ string last_name = 3;
+ int32 age = 4;
+}
+
+message UserGetReply {
+ User user = 1;
+}
