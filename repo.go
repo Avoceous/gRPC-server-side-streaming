@@ -3,7 +3,7 @@
 import "users.proto";
 syntax = "proto3";
 
-option go_package = "github.com/username/server-streaming/service",
+option go_package = "github.com/Avoceous/server-streaming/service",
 
 service Repo {
   rpc GetRepos (RepoGetRequest) returns (stream RepoGerReply) {}
