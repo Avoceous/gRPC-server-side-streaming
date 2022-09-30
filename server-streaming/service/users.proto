@@ -1,4 +1,5 @@
 // server-streaming/service/users.proto
+# take note on the path and directory
 
 syntax = "proto3";
 option go_package = "github.com/Avoceous/server-streaming/service";
